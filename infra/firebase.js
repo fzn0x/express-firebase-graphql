@@ -1,3 +1,5 @@
+// If you are using the GCP API Gateway you can do the authentication part in infrastructure level.
+// no need to using firebase in cloud run business logic layer
 const firebase = require("firebase-admin");
 
 if (
