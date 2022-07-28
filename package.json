@@ -1,0 +1,31 @@
+{
+  "name": "express-firebase-graphql",
+  "version": "1.0.0",
+  "description": "Express - Firebase - GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^6.0.0",
+    "@graphql-tools/stitch": "^8.6.13",
+    "apollo-server-cloud-functions": "^3.8.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "express-rate-limit": "^6.4.0",
+    "firebase": "^9.8.3",
+    "firebase-admin": "^11.0.0",
+    "graphql": "^16.5.0",
+    "graphql-tools": "^8.2.12",
+    "graphql-type-json": "^0.3.2",
+    "swagger-ui-express": "^4.4.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
